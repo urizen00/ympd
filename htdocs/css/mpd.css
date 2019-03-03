@@ -1,6 +1,86 @@
 body {
+  background-color: #111111;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+a {
+  color: #500161;
+}
+
+.table {
+  border-color:;
+}
+
+.panel-primary {
+  background-image: linear-gradient(to right, #de530c 5%, #000000 200%);
+  border-color: #000000;
+}
+.panel-heading {
+  background-image: linear-gradient(to right, #000000 20%, #999999 150%) !important;
+  border-color: #000000 !important;
+}
+
+.breadcrumb {
+  background-image: linear-gradient(to right, #000000 20%, #999999 150%) !important;
+}
+
+.progress {
+  background-image: linear-gradient(to bottom, #828181 10%, #0c0a0a 100%);
+}
+
+.progress-bar {
+  background-image: linear-gradient(to bottom, #405d76 0%, #a93030 100%);
+}
+
+.btn-default {
+  background-image: linear-gradient(to bottom, #de530c 0%, #3f1905 100%);
+  border-color: #de530c;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333;
+  background-image: linear-gradient(to bottom, #3f1905 100%, #de530c 0%);
+  background-position: 0 0;
+  border-color: #de530c;
+
+}
+
+.btn-primary {
+  background-image: linear-gradient(to bottom, #de530c 0%, #3f1905 100%);
+  border-color: #de530c;
+  color: #ca9276;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-image: linear-gradient(to bottom, #3f1905 100%, #de530c 0%);
+  background-position: 0 0;
+  border-color: #dc530c;
+}
+
+.form-control {
+  background-color: #b4b3b3;
+  color: ;
+}
+
+.pager li > a, .pager li > span {
+  background-color: #de530c;
+  border-color: #dc530c;
+}
+.pager li > a:hover, .pager li > a:focus {
+    text-decoration: none;
+    background-color: #3f1905;
+}
+
+.modal-content {
+  background-image: linear-gradient(to right, #de530c 5%, #000000 200%);
 }
 
 .starter-template {
@@ -43,8 +123,8 @@ body {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   color: #428bca;
-  background-color: #fdfdfd;
-  border-color: #adadad;
+  background-color: #999999;
+  border-color: #de530c;
 }
 
 @media (max-width: 1199px) {
